@@ -2,15 +2,21 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>diện tích hình tròn</title>
+    <title>Điểm trung bình</title>
 </head>
 <body>
-
 </body>
 </html>
 <script>
-x = prompt("Nhập bán kính r ");
-let r = parseInt(x);
-let c =  r*r* Math.PI;
-document.write("Diện tích hình tròn :" + c);
-</script>
+    hoa= prompt("nhập điểm hóa");
+    ly = prompt("nhập điểm lý");
+    sinh = prompt("nhập điểm sinh");
+    let a =parseInt(hoa);
+    let b =parseInt(ly);
+    let c =parseInt(sinh);
+    let sum = a+b+c;
+    let ave = sum/3;
+    document.write("điểm tổng của bạn là : "+ sum);
+    document.write("<br>")
+    document.write("điểm trung bình của bạn là :"+ ave);
+    </script>
